@@ -1,12 +1,11 @@
 # 🛍️ E-Commerce Frontend Store
 
-A feature-rich frontend web store template featuring product grids, product sorting, cart management, and an administration dashboard.
+A clean e-commerce client storefront featuring product filters, cart management, and a dedicated admin interface mockup.
 
 ---
 
-## 📌 Overview
-
-**E-commerce-Frontend** is a customer-facing digital store application. It provides client-side product search, filtering, and a cart state manager, as well as a mock Admin panel interface (`Admin/` directory) to simulate product catalog updates and dashboard stats.
+## 📌 System Overview
+This application provides a customer-facing e-commerce UI. It features client-side product filtering, a shopping cart manager, and a mockup Admin page (`Admin/` folder) to simulate database modifications.
 
 ---
 
@@ -14,40 +13,41 @@ A feature-rich frontend web store template featuring product grids, product sort
 
 | Technology | Purpose |
 | ---------- | ------- |
-| HTML5      | Layout structure and forms |
-| CSS3       | Page styling, transitions, grids |
-| JavaScript | Product logic and cart state |
+| HTML5      | Layout panels and catalog structure |
+| CSS3       | Styling parameters, transitions, and hover effects |
+| JavaScript | Product data rendering and cart state manager |
 
 ---
 
-## 🚀 Key Features
-
-* 🛒 **Cart State Manager:** Add, increase, decrease, or remove items in real-time.
-* 🎛️ **Admin Console:** Basic interface for managing listings.
-* 📦 **Product Data:** Static products list parsing (`products.js`) simulating a database.
-* 📱 **Fully Responsive:** Custom grid templates ensuring compatibility on mobile screens.
+## 🚀 Core Features
+* 🛒 **Dynamic Shopping Cart:** Add, remove, and adjust item quantities in real-time.
+* 🎛️ **Admin Console Mockup:** An additional layout simulating inventory updates.
+* 📦 **Product Registry:** Simulates database items from a script file (`products.js`).
+* 📱 **Mobile UI Support:** Styled with responsive columns that adapt cleanly to smaller viewports.
 
 ---
 
-## 🏗️ Project Structure
-
+## 🏗️ Directory Structure
 ```
-├── Admin/               # Directory containing administrator UI files
-├── images/              # Assets folder for product images
-├── index.html           # Main store landing page
-├── style.css            # Primary stylesheet
-└── products.js          # JavaScript database and cart logic
+├── Admin/           # Admin section mockups
+│   └── index.html   # Admin view portal
+├── images/          # Store item illustrations and graphics
+├── products.js      # Product database array and cart handler
+├── style.css        # Main page styles
+└── index.html       # Storefront entrypoint
 ```
 
 ---
 
-## 👨&zwj;💻 Author
+## ⚙️ Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sayed-Herzallah/E-commerce-Frontend.git
+   ```
+2. Open `index.html` in your web browser.
 
+---
+
+## 👨‍💻 Author
 **Sayed Herzallah**  
-Frontend Developer
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving it a star on GitHub.
+Full Stack Developer
